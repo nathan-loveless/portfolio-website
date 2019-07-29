@@ -29,13 +29,14 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			speed: 1000,
+			speed: 500,
 			offset: function() { return $header.height() + 10; }
 		});
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			mode: 'fade',
+			speed: 1000,
 			noOpenerFade: true,
 			expandMode: (browser.mobile ? 'click' : 'hover')
 		});
