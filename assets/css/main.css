@@ -1852,7 +1852,7 @@ input, select, textarea {
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			content: '';
 			height: 100%;
 			left: 0;
@@ -3338,13 +3338,9 @@ input, select, textarea {
 				height: 34px;
 			}
 
-<<<<<<< HEAD
 	}
 
-.wrapper.style2.container.special-alt
+#cta, .major, .wrapper.style2.container.special-alt, .wrapper.style1.container.special
 {
 	display: none;
 }
-=======
-	}
->>>>>>> nathan-loveless/nathan-loveless
